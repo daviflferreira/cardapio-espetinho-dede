@@ -1,0 +1,12 @@
+packages:
+  - "."
+
+confirmModulesPurge: false
+nodeLinker: hoisted
+verifyDepsBeforeRun: false
+
+allowBuilds:
+  esbuild: true
+  sharp: true
+  unrs-resolver: true
+  workerd: true
