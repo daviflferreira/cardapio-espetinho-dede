@@ -7,13 +7,13 @@
     "node": ">=22.13.0"
   },
   "scripts": {
-    "dev": "vinext dev",
-    "build": "vinext build",
-    "start": "vinext start",
-    "typecheck": "tsc --noEmit",
+    "dev": "node node_modules/vinext/dist/cli.js dev",
+    "build": "node node_modules/vinext/dist/cli.js build",
+    "start": "node node_modules/vinext/dist/cli.js start",
+    "typecheck": "node node_modules/typescript/bin/tsc --noEmit",
     "test": "pnpm build && node --test tests/*.test.mjs",
-    "lint": "eslint . --ignore-pattern dist --ignore-pattern .next",
-    "db:generate": "drizzle-kit generate",
+    "lint": "node node_modules/eslint/bin/eslint.js . --ignore-pattern dist --ignore-pattern .next",
+    "db:generate": "node node_modules/drizzle-kit/bin.cjs generate",
     "generate:qr": "node scripts/generate-qr.mjs"
   },
   "dependencies": {
