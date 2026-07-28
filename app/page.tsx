@@ -38,15 +38,17 @@ export default function Home() {
   return (
     <main className="menu-page">
       <header className="menu-header">
-        <Image
-          className="menu-logo"
-          src="/assets/logo-espetinho-da-dede.png"
-          alt="Espetinho da Dedé"
-          width={1280}
-          height={1280}
-          priority
-          unoptimized
-        />
+        <div className="menu-logo-frame">
+          <Image
+            className="menu-logo"
+            src="/assets/logo-espetinho-da-dede.png"
+            alt="Espetinho da Dedé"
+            width={1280}
+            height={1280}
+            priority
+            unoptimized
+          />
+        </div>
         <p className="menu-kicker">Sabor na brasa!</p>
         <h1 className="menu-title">Cardápio</h1>
       </header>

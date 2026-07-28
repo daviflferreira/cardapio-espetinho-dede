@@ -41,14 +41,14 @@ body {
   min-height: 100vh;
   margin: 0 auto;
   background:
-    radial-gradient(circle at 50% 0, rgba(205, 69, 24, 0.08), transparent 260px),
+    radial-gradient(circle at 50% 0, rgba(205, 69, 24, 0.11), transparent 300px),
     #130f0c;
   border-inline: 1px solid rgba(212, 141, 68, 0.2);
   box-shadow: 0 0 48px rgba(0, 0, 0, 0.42);
 }
 
 .menu-header {
-  padding: 28px 20px 22px;
+  padding: 18px 18px 24px;
   text-align: center;
   border-bottom: 1px solid #65301f;
   background:
@@ -62,27 +62,36 @@ body {
     #1b120e;
 }
 
+.menu-logo-frame {
+  width: min(272px, 82vw);
+  aspect-ratio: 1.24;
+  margin: 0 auto -5px;
+  overflow: hidden;
+}
+
 .menu-logo {
   display: block;
-  width: min(190px, 58vw);
-  height: auto;
-  margin: 0 auto 10px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  mix-blend-mode: screen;
 }
 
 .menu-kicker {
   margin: 0;
   color: #e7a242;
-  font-size: 0.76rem;
+  font-size: 0.78rem;
   font-weight: 800;
-  letter-spacing: 0.22em;
+  letter-spacing: 0.2em;
   text-transform: uppercase;
 }
 
 .menu-title {
-  margin: 5px 0 0;
+  margin: 6px 0 0;
   color: #fff1d9;
   font-family: Georgia, "Times New Roman", serif;
-  font-size: clamp(2.3rem, 12vw, 4.5rem);
+  font-size: clamp(2.35rem, 12vw, 4.5rem);
   font-weight: 700;
   line-height: 0.95;
   letter-spacing: 0.04em;
@@ -90,16 +99,16 @@ body {
 }
 
 .menu-content {
-  padding: 28px 20px 38px;
+  padding: 30px 18px 44px;
 }
 
 .menu-section + .menu-section {
-  margin-top: 34px;
+  margin-top: 38px;
 }
 
 .menu-section__heading {
-  margin: 0 0 16px;
-  padding-bottom: 7px;
+  margin: 0 0 18px;
+  padding-bottom: 8px;
   border-bottom: 2px solid #9d3d20;
 }
 
@@ -121,7 +130,7 @@ body {
 
 .menu-list {
   display: grid;
-  gap: 13px;
+  gap: 16px;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -131,7 +140,7 @@ body {
   display: grid;
   grid-template-columns: minmax(0, auto) minmax(14px, 1fr) auto;
   align-items: baseline;
-  gap: 7px;
+  gap: 8px;
   font-size: 1rem;
   line-height: 1.3;
 }
@@ -139,6 +148,9 @@ body {
 .menu-row__name {
   min-width: 0;
   color: #f5ead8;
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1.35;
   overflow-wrap: anywhere;
 }
 
@@ -150,6 +162,7 @@ body {
 
 .menu-row__price {
   color: #ffc15d;
+  font-size: 1rem;
   font-weight: 800;
   white-space: nowrap;
 }
@@ -266,16 +279,16 @@ body {
     padding-block: 36px 28px;
   }
 
-  .menu-logo {
-    width: 215px;
+  .menu-logo-frame {
+    width: 300px;
   }
 
   .menu-content {
     padding: 40px 58px 50px;
   }
 
-  .menu-row {
-    font-size: 1.06rem;
+  .menu-row__name {
+    font-size: 1.16rem;
   }
 
   .jantinha__options {
