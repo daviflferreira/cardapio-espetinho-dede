@@ -26,6 +26,9 @@ export const menuSections: MenuSection[] = [
     items: [
       { name: "Medalhão de frango", price: 10 },
       { name: "Costelinha suína", price: 10 },
+      { name: "Queijo coalho", price: 10 },
+      { name: "Queijo provolone", price: 10 },
+      { name: "Pão de alho", price: 8.99 },
     ],
   },
   {
