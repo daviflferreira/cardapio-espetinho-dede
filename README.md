@@ -30,12 +30,3 @@ pnpm start
 Edite `src/data/menu.ts`. O conteúdo da página é renderizado a partir desse arquivo.
 
 O logo oficial está em `public/assets/logo-espetinho-da-dede.png`.
-
-## Publicar na Vercel
-
-1. Envie este projeto para um repositório no GitHub.
-2. Na Vercel, selecione **Add New → Project**.
-3. Importe o repositório.
-4. Confirme o preset **Next.js** e publique.
-
-Não são necessárias variáveis de ambiente.
