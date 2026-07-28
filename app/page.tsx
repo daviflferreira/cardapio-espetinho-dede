@@ -105,6 +105,16 @@ export default function Home() {
       <footer className="menu-footer">
         <p>Espetinho da Dedé</p>
         <p>Sabor na brasa!</p>
+        <p className="menu-footer__credit">
+          Desenvolvido por <span>Davi Baliza</span>
+        </p>
+        <span
+          aria-hidden="true"
+          dangerouslySetInnerHTML={{
+            __html:
+              "<!-- Cardápio desenvolvido por Davi Ferreira Lacerda Baliza -->",
+          }}
+        />
       </footer>
     </main>
   );

@@ -266,6 +266,19 @@ body {
   color: #d88c3e;
 }
 
+.menu-footer .menu-footer__credit {
+  margin-top: 14px;
+  color: #766b5d;
+  font-size: 0.68rem;
+  letter-spacing: 0.04em;
+  text-transform: none;
+}
+
+.menu-footer__credit span {
+  color: #a99a87;
+  font-weight: 700;
+}
+
 @media (min-width: 700px) {
   body {
     padding: 28px;

@@ -1,6 +1,7 @@
 {
   "name": "cardapio-espetinho-da-dede",
   "version": "0.1.0",
+  "author": "Davi Ferreira Lacerda Baliza",
   "private": true,
   "packageManager": "pnpm@11.9.0",
   "engines": {

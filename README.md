@@ -39,3 +39,7 @@ O logo oficial está em `public/assets/logo-espetinho-da-dede.png`.
 4. Confirme o preset **Next.js** e publique.
 
 Não são necessárias variáveis de ambiente.
+
+## Autoria
+
+Desenvolvido por Davi Ferreira Lacerda Baliza com auxilio da ferramenta de inteligência artificial Codex, modelo 5.6 Sol no alto.
