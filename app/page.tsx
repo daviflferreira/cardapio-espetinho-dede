@@ -20,11 +20,16 @@ function MenuRows({
           }
           key={item.name}
         >
-          <span className="menu-row__name">{item.name}</span>
-          <span className="menu-row__dots" aria-hidden="true" />
-          <strong className="menu-row__price">
-            {priceFormatter.format(item.price)}
-          </strong>
+          <div className="menu-row__heading">
+            <span className="menu-row__name">{item.name}</span>
+            <span className="menu-row__dots" aria-hidden="true" />
+            <strong className="menu-row__price">
+              {priceFormatter.format(item.price)}
+            </strong>
+          </div>
+          {item.description ? (
+            <p className="menu-row__description">{item.description}</p>
+          ) : null}
         </li>
       ))}
     </ul>
@@ -32,8 +37,8 @@ function MenuRows({
 }
 
 export default function Home() {
-  const sectionsBeforeJantinha = menuSections.slice(0, 3);
-  const sectionsAfterJantinha = menuSections.slice(3);
+  const sectionsBeforeJantinha = menuSections.slice(0, 5);
+  const sectionsAfterJantinha = menuSections.slice(5);
 
   return (
     <main className="menu-page">

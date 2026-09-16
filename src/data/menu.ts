@@ -1,6 +1,7 @@
 export type MenuItem = {
   name: string;
   price: number;
+  description?: string;
   featured?: boolean;
 };
 
@@ -11,6 +12,33 @@ export type MenuSection = {
 };
 
 export const menuSections: MenuSection[] = [
+  {
+    title: "Hambúrgueres artesanais",
+    items: [
+      {
+        name: "Hambúrguer de carne",
+        price: 24.99,
+        description:
+          "Carne 150 g, cheddar, bacon, alface, tomate e maionese verde",
+      },
+      {
+        name: "Hambúrguer de frango",
+        price: 24.99,
+        description:
+          "Frango 150 g, cheddar, bacon, alface, tomate e maionese verde",
+      },
+      {
+        name: "Hambúrguer de costela",
+        price: 24.99,
+        description:
+          "Costela 150 g, cheddar, bacon, alface, tomate e maionese verde",
+      },
+    ],
+  },
+  {
+    title: "Porções",
+    items: [{ name: "Batata frita 300 g", price: 19.99 }],
+  },
   {
     title: "Espetinhos",
     items: [
