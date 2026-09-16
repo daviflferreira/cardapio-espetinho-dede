@@ -13,33 +13,6 @@ export type MenuSection = {
 
 export const menuSections: MenuSection[] = [
   {
-    title: "Hambúrgueres artesanais",
-    items: [
-      {
-        name: "Hambúrguer de carne",
-        price: 24.99,
-        description:
-          "Carne 150 g, cheddar, bacon, alface, tomate e maionese verde",
-      },
-      {
-        name: "Hambúrguer de frango",
-        price: 24.99,
-        description:
-          "Frango 150 g, cheddar, bacon, alface, tomate e maionese verde",
-      },
-      {
-        name: "Hambúrguer de costela",
-        price: 24.99,
-        description:
-          "Costela 150 g, cheddar, bacon, alface, tomate e maionese verde",
-      },
-    ],
-  },
-  {
-    title: "Porções",
-    items: [{ name: "Batata frita 300 g", price: 19.99 }],
-  },
-  {
     title: "Espetinhos",
     items: [
       { name: "Frango", price: 10 },
@@ -68,8 +41,35 @@ export const menuSections: MenuSection[] = [
     ],
   },
   {
-    title: "Adicional",
+    title: "Adicional da jantinha",
     items: [{ name: "Paçoca adicional", price: 5 }],
+  },
+  {
+    title: "Hambúrgueres artesanais",
+    items: [
+      {
+        name: "Hambúrguer de carne",
+        price: 24.99,
+        description:
+          "Carne 150 g, cheddar, bacon, alface, tomate e maionese verde",
+      },
+      {
+        name: "Hambúrguer de frango",
+        price: 24.99,
+        description:
+          "Frango 150 g, cheddar, bacon, alface, tomate e maionese verde",
+      },
+      {
+        name: "Hambúrguer de costela",
+        price: 24.99,
+        description:
+          "Costela 150 g, cheddar, bacon, alface, tomate e maionese verde",
+      },
+    ],
+  },
+  {
+    title: "Porções",
+    items: [{ name: "Batata frita 300 g", price: 19.99 }],
   },
   {
     title: "Caldos",

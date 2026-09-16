@@ -37,8 +37,8 @@ function MenuRows({
 }
 
 export default function Home() {
-  const sectionsBeforeJantinha = menuSections.slice(0, 5);
-  const sectionsAfterJantinha = menuSections.slice(5);
+  const sectionsBeforeJantinha = menuSections.slice(0, 3);
+  const sectionsAfterJantinha = menuSections.slice(3);
 
   return (
     <main className="menu-page">
